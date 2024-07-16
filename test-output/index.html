@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse--136572428\testng-customsuite.xml</span>
+                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse-121706287\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,16 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestLayer.OrangeHRMTest" class="method navigator-link" hash-for-method="HomepageTitle">HomepageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestLayer.OrangeHRMTest" class="method navigator-link" hash-for-method="HomepageUrl">HomepageUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="TestLayer.OrangeHRMTest" class="method navigator-link" hash-for-method="LoginPageTest">LoginPageTest</a> <!-- method navigator-link -->
@@ -132,6 +142,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="HomepageTitle">
+                  </a> <!-- HomepageTitle -->
+                  <span class="method-name">HomepageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomepageUrl">
+                  </a> <!-- HomepageUrl -->
+                  <span class="method-name">HomepageUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="LoginPageTest">
                   </a> <!-- LoginPageTest -->
                   <span class="method-name">LoginPageTest</span>
@@ -149,7 +173,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse--136572428\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse-121706287\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -198,20 +222,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'setUp')
 data.setCell(0, 2, 'TestLayer.OrangeHRMTest')
-data.setCell(0, 3, 27779);
+data.setCell(0, 3, 16612);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginPageTest')
+data.setCell(1, 1, 'HomepageTitle')
 data.setCell(1, 2, 'TestLayer.OrangeHRMTest')
-data.setCell(1, 3, 4788);
+data.setCell(1, 3, 2495);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginPageTest')
+data.setCell(2, 2, 'TestLayer.OrangeHRMTest')
+data.setCell(2, 3, 2393);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HomepageUrl')
+data.setCell(3, 2, 'TestLayer.OrangeHRMTest')
+data.setCell(3, 3, 72);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -244,7 +276,15 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginPageTest</span>
-                <span class="method-start">27794 ms</span>
+                <span class="method-start">16625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomepageTitle</span>
+                <span class="method-start">19023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomepageUrl</span>
+                <span class="method-start">21534 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

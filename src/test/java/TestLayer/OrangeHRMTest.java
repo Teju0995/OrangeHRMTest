@@ -40,5 +40,14 @@ public class OrangeHRMTest {
 		
 		
 	}
+	
+	@Test(priority=4)
+	public void HomepageUrl()
+	{
+		String actualurl = driver.getCurrentUrl();
+		Assert.assertEquals(actualurl.contains("orange"), true);
+		
+		
+	}
 
 }
